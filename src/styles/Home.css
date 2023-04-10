@@ -1,0 +1,32 @@
+.body{
+    display:flex;
+    justify-content: center;
+}
+.home{
+    max-width: 1200px;
+    
+}
+
+.home .carousel-root {
+    width: 1200px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .home  {
+      max-width: 960px; /* Set the max-width based on the desktop breakpoint */
+    }
+  }
+  
+  @media screen and (min-width: 464px) and (max-width: 1023px) {
+    .home  {
+      max-width: 90%; /* Set the max-width based on the tablet breakpoint */
+   
+    }
+  }
+  
+  @media screen and (max-width: 464px) {
+    .home  {
+      max-width:90%;
+    }
+  }
+  
